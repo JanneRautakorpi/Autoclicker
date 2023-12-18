@@ -9,9 +9,9 @@ coordinates = {
 }
 
 def WaitForStart():
-    print("Siirrä kursori sekä kolikepussien että Knightin kanssa päällekäin")
-    print("Kursorin ollessa paikallaan aloita bottaus painamalla CTRL")
-    print("Lopettaaksesi bottauksen pidä ESCiä hetken pohjassa")
+    print("Move cursor to wanted spot (on top of Knight and coin pouch.)")
+    print("Press CTRL to start clicking.")
+    print("Hold ESC to shutdown.")
     
     while True:
         if (keyboard.is_pressed('left ctrl')):
@@ -23,7 +23,7 @@ def clicking():
         one_cycle = random.randint(75, 110)
         for _ in range(one_cycle):
             if keyboard.is_pressed('esc'):
-                print("Suljetaan ohjelmaa...")
+                print("Exitting...")
                 pyautogui.PAUSE = 2
                 sys.exit()
             pyautogui.click(coordinates["xCoord"], coordinates["yCoord"], button='left')
