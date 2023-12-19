@@ -1,2 +1,2 @@
 # Autoclicker
-Very basic autoclicker script. Goal was to automate gaining experience in Runescape and learn PyAutoGUI.
+Very basic autoclicker script. Goal was to automate gaining experience in Runescape and learn principles of PyAutoGUI.
