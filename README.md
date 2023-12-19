@@ -1,3 +1,2 @@
 # Autoclicker
-Very basic autoclicker script. Intention was to gain experience points in Thieving skill in Runescape.
-I also wanted to learn principles of PyAutoGUI.
+Very basic autoclicker script. Goal was to automate gaining experience in Runescape and learn PyAutoGUI.
